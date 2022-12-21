@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoviePlus++</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navegacion">
+            <ul class="menu">
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="#">Tráilers</a>
+                    <ul class="submenu">
+                        <li><a href="Trailers/Juegos/trailerJuegos.html">Juegos</a>
+                        <li><a href="Categorias/romanticas/cRomanticas.html">Películas</a>
+                    </ul>
+                </li>
+                <li><a href="#">Géneros</a>
+                    <ul class="submenu">
+                        <li><a href="Categorias/terror/cTerror.html">Terror</a>
+                        <li><a href="Categorias/romanticas/cRomanticas.html">Románticas</a>
+                        <li><a href="#">Acción</a>
+                    </ul>
+                </li>
+                <li><a href="#">Soporte</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="web-info">
+            <div class="web-title">
+                MoviesPlus ++
+            </div>
+    
+            <div class="web-desc">
+                <p>MoviesPlus ++ es una alternativa eficaz para ver peliculas rapidamente 
+                y sin publicidad, de manera que puedas disfrutar de tus peliculas 
+                favoritas sin ningun tipo de inconveniente. Cabe destacar que la página 
+                aún está en desarrollo, por lo que faltan algunas funciones a implementar, 
+                pero se estarán incorporando con el tiempo. Disfruta!</p>
+            </div>
+            
+            <div class="buscador-div">
+                <input id="buscador" type="text" placeholder="Buscar...">
+                <button id="searchbutton" onclick="busquedaBoton()">
+                    <img class="search-button" src="pics/searchbutton.png">
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <div class="footer">
+        <div class="join-div">
+            <button>Regístrate</button>
+            <button>Ingresa</button>
+        </div>
+    </div>
+    
+
+
+    <script src="index.js"></script>
+</body>
+</html>

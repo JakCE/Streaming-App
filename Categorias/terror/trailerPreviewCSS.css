@@ -1,0 +1,61 @@
+
+
+/*TRAILER-PREVIEW*/
+
+#close-trailer-btn, #close-trailer-btn2, #close-trailer-btn3, #close-trailer-btn4, #close-trailer-btn5, #close-trailer-btn6
+{
+    position: absolute;
+    top: 0;
+    right: 20px;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    background-color: red;
+
+
+    border-radius: 100px;
+    padding: 9px 12px;
+}
+#close-trailer-btn p, #close-trailer-btn2 p, #close-trailer-btn3 p, #close-trailer-btn4 p, #close-trailer-btn5 P, #close-trailer-btn6 P{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    
+    margin-top: -3px;
+    margin-right: 1px;
+    font-weight: bold;
+}
+#close-trailer-btn:hover, #close-trailer-btn2:hover, #close-trailer-btn3:hover, #close-trailer-btn4:hover, #close-trailer-btn5:hover, #close-trailer-btn6:hover{
+    color: white;
+}
+
+
+#trailer-preview, #trailer-preview2, #trailer-preview3, #trailer-preview4, #trailer-preview5, #trailer-preview6
+{
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 100vh;
+    width: 1200px;
+    border: none;
+    background-color: black;
+
+    
+}
+#trailer-preview::backdrop, #trailer-preview2::backdrop, #trailer-preview3::backdrop, #trailer-preview4::backdrop, #trailer-preview5::backdrop, #trailer-preview6::backdrop
+{
+    background-color: rgba(0, 0, 0, 0.9);
+    
+}
+#trailer-preview video, #trailer-preview2 video, #trailer-preview3 video, #trailer-preview4 video, #trailer-preview5 video, #trailer-preview6 video{
+    width: 100%;
+    height: 99%;
+}
+
+/*TRAILER-PREVIEW*/
